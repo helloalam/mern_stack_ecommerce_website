@@ -1,6 +1,6 @@
 # MERN E-COMMERCE TUTORIAL
 
-Hi! My name is **Mohd  Mahfooz alam**, I have created this tutorial to teach MERN Stack for free on YouTube.
+Hi! My name is **Mohd  Mahfooz alam**, I have created this MERN STACK website for great understanding to create such website.
 
 
 
