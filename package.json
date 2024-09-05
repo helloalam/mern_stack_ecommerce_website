@@ -9,11 +9,7 @@
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
     "build": "npm install --prefix frontend && npm run build --prefix frontend"
-}  
-
-},
-
-{  
+}, 
   "author": "",
   "license": "ISC",
   "dependencies": {
