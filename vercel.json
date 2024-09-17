@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "native-server",
+  "name": "Ecommerce",
   "builds": [
     {
       "src": "server.js",
@@ -9,13 +9,19 @@
     {
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "frontend/build" }
+      "config": {
+        "distDir": "frontend/build"
+      }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/(.*)",
       "dest": "/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/build/$1"
     }
   ]
 }
